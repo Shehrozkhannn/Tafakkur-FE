@@ -11,7 +11,7 @@ export interface MoodPayload {
 })
 export class ApiService {
   private http = inject(HttpClient);
-  private base = 'http://localhost:4000';
+  private base = 'https://be-takaffur-production.up.railway.app';
 
   constructor() { }
 
