@@ -106,3 +106,23 @@
      border-radius: 100px 0 0 100px
    }
  }
+
+
+ @media (max-width: 450px) {
+   .shell-header img{
+     height: 74px;
+     width: 74px;
+   }
+  
+   .shell-header h1{
+     font-size: 37px;
+   }
+  
+     .entry {
+     height: 171px;
+   }
+  
+   .entry h2 {
+     font-size: 18px;
+   }
+ }

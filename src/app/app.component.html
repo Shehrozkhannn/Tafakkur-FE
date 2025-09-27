@@ -1,18 +1,3 @@
-<!-- <app-landing-page *ngIf="showLanding; else mainApp" (startApp)="onStartApp()"></app-landing-page>
-<ng-template #mainApp>
-  <div class="main-app-shell">
-    <app-stars-background></app-stars-background>
-    <div class="app-shell" [@fadeIn]>
-      <div class="shell-header">
-        <img src="quran-icon.png" alt="" height="100" width="100">
-        <h1 class="montserrat-heading">Tafakkur AI</h1>
-      </div>
-      <app-journal [(showLoader)]="showLoader" />
-      <div class="loader" *ngIf="showLoader"></div>
-    </div>
-  </div>
-</ng-template> -->
-
 <ng-container *ngIf="showLanding; else mainApp">
   <app-landing-page (startApp)="onStartApp()"></app-landing-page>
 </ng-container>

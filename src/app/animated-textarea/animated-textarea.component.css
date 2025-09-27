@@ -39,3 +39,15 @@ textarea:focus {
 textarea {
   resize: none;
 }
+
+
+ @media (max-width: 450px) {
+     textarea {
+        min-height: 45px !important;
+    }
+    
+  img {
+    height: 33px;
+    width: 35px;
+  }
+ }

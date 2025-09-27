@@ -103,3 +103,28 @@
     align-items: center;
     margin-top: 12px;
  }
+
+
+ @media (max-width: 450px) {
+  .heading span {
+    font-size: 7.2rem;
+  }
+
+  .entry {
+    height: 180px;
+  }
+
+  .entry h2 {
+    font-size: 18px;
+  }
+
+  img {
+    height: 33px;
+    width: 35px;
+  }
+
+  .shell-header img{
+    height: 74px;
+    width: 74px;
+  }
+}
